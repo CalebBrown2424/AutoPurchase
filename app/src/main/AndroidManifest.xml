@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.missouristate.davis916.autopurchase">
+    package="com.example.autopurchaseforrealthistime">
 
     <application
         android:allowBackup="true"
@@ -21,7 +21,7 @@
         </activity>
 
         <!-- Secondary activity class: Car loan report -->
-        <activity android:name=".LoanSummaryActivity"
+        <activity android:name=".LoanSumActivity"
                     android:label="@string/app_name"
                     android:parentActivityName=".PurchaseActivity">
         <meta-data
